@@ -6,6 +6,7 @@
 
 body {
 	width: 500px;
+	background-color: #445;
 }
 
 h1,h2 {
@@ -31,15 +32,6 @@ button, .btn {
 	box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
 }
 
-.btn {
-	color: #000;
-	color: #fff;
-	background: #a4f;
-	padding: 5px 8px;
-	font-weight: 400;
-	text-transform: uppercase;
-}
-
 .buttons .run {
 	margin-left: 10px;
 }
@@ -59,7 +51,6 @@ button:hover, .btn:hover {
 
 div.CodeMirror-gutters {
 	border-right: 0;
-	background-color: #fff;
 }
 
 .code-wrap {
@@ -115,7 +106,6 @@ div.CodeMirror-gutters {
 	top: 50%;
 	transform: translate(0, -50%);
 	border: 1px solid #ccc;
-	background: #fff;
 	z-index: 200;
 	box-shadow: 0 0 75px rgba(0,0,0,0.3);
 	transition: all .09s linear;
@@ -151,10 +141,6 @@ div.CodeMirror-gutters {
 	margin: 10px 3%;
 }
 
-.patreon {
-	font-weight: 600;
-}
-
 </style>
 </head>
 <body>
@@ -170,9 +156,7 @@ div.CodeMirror-gutters {
 <script src="popup.js"></script>
 
 <div class='buttons'>
-	<a class='btn patreon' href='https://themeforest.net/user/majorthemes/portfolio' target='_blank'>WordPress Themes for blogs</a>
 	<div>
-		<!--<button class='global-styles disabled' title='Coming soon!'>Global Styles</button>-->
 		<button class='show-data'>Saved Data</button>
 		<button class='run'>Run</button>
 	</div>
